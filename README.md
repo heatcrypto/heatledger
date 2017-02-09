@@ -1,5 +1,7 @@
 # heatledger
 
+Latest version is 0.9.5, this is a mandatory update.
+
 Heatledger cryptocurrency server.
 
 To install and run heatledger you need Java JDK 1.8 or higher installed, note that JDK is different from standard java distributions.
