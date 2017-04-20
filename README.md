@@ -1,6 +1,6 @@
 # heatledger
 
-Latest version is 1.0.0-b1
+Latest version is 1.0.1
 
 Heatledger cryptocurrency server.
 
