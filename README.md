@@ -1,6 +1,6 @@
 # heatledger
 
-Latest version is 2.5.3
+Latest version is 2.5.4
 
 Heatledger cryptocurrency server.
 
@@ -20,11 +20,15 @@ heat.isTestnet=true
 ```
 
 ## Recent Server updates:
+Notable server changes
 
-The HEAT 2.5.3 Server is an optional update with improvements and some bug fixes.
+Added signaling server to provide peer-to-peer messaging via WebRTC technology. The basic version of the signaling server supports central signaling host with the following features:
 
-Fixed errors on public name duplication in database at blockchain scanning. This improves blockchain scanning speed.
+- Off-chain messaging, data transtmitted and stored encrypted on local device (sender & receiver) only
+- P2P direct connect from client to client after signaling channel creation
+- prevent MITM attacks via encryption signaling data (on client side) by users public/private keys. Server cannot recognize any client WebRTC data after signaling channel creation
+- Online trigger with accept / decline confirmation for incoming connect requests
+Other updates:
+- discard chart and market updates when blockchain is downloading and height is far from peers height;
+- fix sql select transactions
 
-The server initialization is reorganized for embedded usage. Also implemented more robust (in different OS) server shutdown for desktop Heatwallet application using file signaling.
-
-Eliminated extra console output about balances hash equality on blockchain scan and download.
