@@ -17,7 +17,10 @@ In order to connect to the heat testnet (this is used by developers mostly) plea
 ```
 heat.wellKnownPeersTest=176.9.102.212;95.85.4.150;146.185.154.55
 heat.isTestnet=true
+heat.numberOfForkConfirmations=0
 ```
+
+*For mainnet the parameter heat.numberOfForkConfirmations should be reverted to the default value 2*
 
 ## Recent Server updates:
 
