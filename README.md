@@ -1,6 +1,6 @@
 # heatledger
 
-Latest version is 3.1.0
+Latest version is 4.0.0
 
 Heatledger cryptocurrency server.
 
@@ -24,12 +24,4 @@ heat.numberOfForkConfirmations=0
 
 ## Recent Server updates:
 
-1. Implemented compatibility in addition to Java 1.8 with Java 9, 10, 11, 12
-2. Upgraded 3rd party java librares
-3. Added POP POS Rewards history storage to have ability to get account and amount of rewards at any height
-4. Scanning optimization: disabling storage map versioning on scanning before 1440 blocks until blockchain end
-5. Improved embeddability: make Genesis class embeddable
-6. Fixed erroneously persisting peer blacklisting due to old version
-7. Fixed bug: on scanning storing genesis account at wrong version height
-8. Fixed API bug: getting Last Price for market
-9. Fixed minor bugs
+- to be updated shortly
