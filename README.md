@@ -1,6 +1,14 @@
-# heatledger
+# Heatledger
 
 Latest version is 4.0.0
+
+# Preffered installation
+
+Please use our official Docker images to run your HEAT server
+
+https://hub.docker.com/r/heatcrypto/heatledger
+
+# About
 
 Heatledger cryptocurrency server.
 
@@ -10,7 +18,7 @@ On ubuntu use `sudo apt-get install default-jdk` package. For other platforms pl
 
 For configuration settings see the conf/heat-default.properties files in the installation folder.
 
-# testnet
+# Testnet
 
 In order to connect to the heat testnet (this is used by developers mostly) please add these properties to `conf/heat.properties` file.
 
