@@ -68,7 +68,6 @@ heat.numberOfForkConfirmations=0
 
 ## Changes
 
-- Masternode registration fee set to 50 HEAT, enhance validity period to 622080 blocks (~180 days).
 - New ways to set server properties (on command line)
 - Support encrypted messaging through server when direct WebRTC is not allowed for endpoints.
 
