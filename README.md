@@ -1,6 +1,6 @@
 # Heatledger
 
-Latest version is 4.0.0 is available here https://github.com/heatcrypto/heatledger/releases
+Latest version is 4.1.1 is available here https://github.com/heatcrypto/heatledger/releases
 
 # Preffered installation
 
