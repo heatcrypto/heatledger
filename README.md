@@ -2,7 +2,7 @@
 
 Latest version is 4.1.1 is available here https://github.com/heatcrypto/heatledger/releases
 
-# Preffered installation
+# Preferred installation
 
 Please use our official Docker images to run your HEAT server
 
